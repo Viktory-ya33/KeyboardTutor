@@ -41,7 +41,7 @@ class MainWindow(tkinter.Tk):
         self.geometry(f"+{self.winfo_screenwidth() // 5}"
                       f"+{self.winfo_screenheight() // 7}")
         self.resizable(width=False, height=False)
-        self.font = ('Arial', 12)
+        self.font = ('Times', 12)
         self.option_add('*TCombobox*Listbox.font', self.font)
 
         buttons_frame = tkinter.Frame(self)
